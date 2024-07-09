@@ -9,7 +9,7 @@ const port = 3000;
 
 app.use(  // This line of code is used to connect the frontend to the backend
   cors({  // and it takes 3 parameters: origin, methods, credentials
-      origin: ["http://localhost:5173"],  // Corrected URL string format
+      origin: ["https://transaction-dashboard-mern-frontend.vercel.app"],  // Corrected URL string format
       methods: ["GET", "PUT", "DELETE", "POST"],  // Fixed method names
       credentials: true,  // Corrected spelling
   })
